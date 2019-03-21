@@ -1,0 +1,6 @@
+[submodule "lib/MPU9250"]
+	path = lib/MPU9250
+	url = https://github.com/bolderflight/MPU9250.git
+[submodule "lib/Adafruit_BMP280_Library"]
+	path = lib/Adafruit_BMP280_Library
+	url = https://github.com/adafruit/Adafruit_BMP280_Library.git
