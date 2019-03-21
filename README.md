@@ -6,6 +6,11 @@ __Care to disable or uninstall the Arduino plugin__
 
 ## Libraries
 Care to __clone__ these (and any new libraries) into the pio libs folder and use as git submodules as necessary. 
+eg 
+```
+# inside the lib folder
+git submodule add https://github.com/adafruit/Adafruit_BMP280_Library.git 
+```
 
 ### Libraries currently used
 [MPU9250](https://github.com/bolderflight/MPU9250)
