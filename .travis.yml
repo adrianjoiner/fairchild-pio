@@ -34,8 +34,6 @@ cache:
 install:
     - pip install -U platformio
     - platformio update
-    - git clone --recursive -b https://github.com/bolderflight/MPU9250.git /lib/MPU9250
-    - git clone --recursive -b https://github.com/adafruit/Adafruit_BMP280_Library.git /lib/Adafruit_BMP280_Library
 script:
     - platformio run
 
