@@ -39,7 +39,10 @@ script:
 branches:
     only:
     - master
-
+notifications:
+    email:
+    - adrianjoiner@gmail.com
+    
 
 #
 # Template #2: The project is intended to be used as a library with examples.
