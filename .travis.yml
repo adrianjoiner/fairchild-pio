@@ -36,6 +36,9 @@ install:
     - platformio update
 script:
     - platformio run
+branches:
+    only:
+    - master
 
 
 #

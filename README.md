@@ -59,3 +59,7 @@ Using forked [Adafruit-PCD8544-Nokia-5110-LCD-library](https://github.com/Kenjut
 
 
 [Nokia5110 lcd](https://lastminuteengineers.com/nokia-5110-lcd-arduino-tutorial/)
+
+
+## Travis CI
+[Build PR's and pushes to master only](https://stackoverflow.com/questions/31882306/how-to-configure-travis-ci-to-build-pull-requests-merges-to-master-w-o-redunda)
