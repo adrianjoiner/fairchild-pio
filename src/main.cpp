@@ -3,8 +3,10 @@
 #include <Wire.h>
 #include "MPU9250.h"
 #include <Adafruit_BMP280.h> //include the Adafruit BMP280 library
+#include "Adafruit_PCD8544.h"
+#include <Adafruit_GFX.h>
 
-void ic2_scan();
+
 
 // global constants
 const byte BMP280_address=0x76;
@@ -13,8 +15,9 @@ bool barometerOnline = false;
 bool mpuOnline = false;
 
 Adafruit_BMP280 barometer;
-MPU9250 mpu(Wire, MPU9250_address);
+MPU9250 mpu(Wire, MPU9250_address); 
 
+void ic2_scan();
 void displayBarometerReadings(Adafruit_BMP280&);
 void displayMpuReadings(MPU9250&);
 
