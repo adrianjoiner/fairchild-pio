@@ -13,6 +13,12 @@ git submodule add https://github.com/adafruit/Adafruit_BMP280_Library.git
 git submodule add https://github.com/KenjutsuGH/Adafruit-PCD8544-Nokia-5110-LCD-library.git
 ```
 
+To update these or when moving to a new machine for the first time
+```
+git submodule update --init --recursive
+```
+
+
 ### Libraries currently used
 [MPU9250](https://github.com/bolderflight/MPU9250)
 [Adafruit_BMP280_Library](https://github.com/adafruit/Adafruit_BMP280_Library)
@@ -29,7 +35,7 @@ Something to be aware of when deconstructing other peoples code made of multiple
 
 Don't mix and match
 
-__Note__ #include "Adafruit_GFX.h" needed to be addded to the Adafruit_PCD8544.h file and the library addded using the library manager, which installed the library as a global library and not in the project library
+__Note #include "Adafruit_GFX.h" needed to be addded to the Adafruit_PCD8544.h file__ and the library addded using the library manager, which installed the library as a global library and not in the project library
 
 ## Setting build output file / arduino.json settings
 [arduino.json settings](https://arduino.stackexchange.com/questions/45347/warning-when-verifying-sketch-with-vs-code)
@@ -67,3 +73,5 @@ The screen is graphic, ie not char based, but can contain 6 rows of 12 chars
 
 ## Travis CI
 [Build PR's and pushes to master only](https://stackoverflow.com/questions/31882306/how-to-configure-travis-ci-to-build-pull-requests-merges-to-master-w-o-redunda)
+
+
